@@ -187,8 +187,6 @@ s
 C.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_19.xml,d\f\df1b14cba7bcca8982a23e8418e593c2e0f9557d
 i
 9.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_4.xml,9\2\92caafdd2526018d01191b6da5b57a33c45dfab0
-
-Opagamentos/src/main/java/br/com/alurafood/pagamentos/PagamentosApplication.java,a\f\af21c487e0c8b260b65107fe0ec837204c881eb8
 9
 	ReadMe.md,a\2\a225a7e79496c5a1d847c78c3db651eb302ec867
 „
