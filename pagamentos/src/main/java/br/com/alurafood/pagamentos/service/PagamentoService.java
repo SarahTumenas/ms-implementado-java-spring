@@ -64,7 +64,6 @@ public class PagamentoService {
         if (!pagamento.isPresent()) {
             throw new EntityNotFoundException();
         }
-
         pagamento.get().setStatus(Status.CONFIRMADO);
         pagamentoRepository.save(pagamento.get());
         pedido.atualizaPagamento(pagamento.get().getPedidoId());
