@@ -76,7 +76,6 @@ public class PagamentoService {
         if (!pagamento.isPresent()) {
             throw new EntityNotFoundException();
         }
-
         pagamento.get().setStatus(Status.CONFIRMADO_SEM_INTEGRACAO);
         pagamentoRepository.save(pagamento.get());
     }
